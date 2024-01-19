@@ -7,26 +7,25 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Details from "./pages/details/Details";
 import Registers from "./pages/register/Register";
- export var base_url = "";
- export const base = base_url;
+export var base_url = "";
+export const base = base_url;
 
 function App() {
-  
-    return (
-      <div>
 
-       <BrowserRouter>
-            <Header/>
-            <Routes>
-             <Route path="/" element={<Registers/>} />
-                <Route path="/login" element={<Logins/>} />
-                <Route path="/home" element={<Homes/>} />
-                <Route path="/:mediaType/:id" element={<Details/>}/>
-                 </Routes>
-              <Footer/>
-        </BrowserRouter>
-        </div>
-    );
+return (
+<div>
+    <BrowserRouter>
+        <Header />
+        <Routes>
+            <Route path="/" element={<Registers />} />
+            <Route path="/login" element={<Logins />} />
+            <Route path="/home" element={<Homes />} />
+            <Route path="/:mediaType/:id" element={<Details />}/>
+        </Routes>
+        <Footer />
+    </BrowserRouter>
+</div>
+);
 }
 
 export default App;
