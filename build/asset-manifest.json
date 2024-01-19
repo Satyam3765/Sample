@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7be72dfa.css",
+    "main.js": "/static/js/main.cecb692e.js",
+    "reactPlayerPreview.js": "/static/js/reactPlayerPreview.d15f5929.chunk.js",
+    "static/js/787.0c56bf12.chunk.js": "/static/js/787.0c56bf12.chunk.js",
+    "static/media/no-poster.png": "/static/media/no-poster.de8cb0a7786e6bf2b2de.png",
+    "static/media/home_cinema.svg": "/static/media/home_cinema.948065c83e634c63f05bb63c6b9137e6.svg",
+    "static/media/movix-logo.svg": "/static/media/movix-logo.9d67d13c155c38743f313bd4784d0c7b.svg",
+    "index.html": "/index.html",
+    "main.7be72dfa.css.map": "/static/css/main.7be72dfa.css.map",
+    "main.cecb692e.js.map": "/static/js/main.cecb692e.js.map",
+    "reactPlayerPreview.d15f5929.chunk.js.map": "/static/js/reactPlayerPreview.d15f5929.chunk.js.map",
+    "787.0c56bf12.chunk.js.map": "/static/js/787.0c56bf12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7be72dfa.css",
+    "static/js/main.cecb692e.js"
+  ]
+}

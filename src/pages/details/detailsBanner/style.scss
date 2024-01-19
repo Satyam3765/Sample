@@ -1,0 +1,210 @@
+@import "../../../mixins.scss";
+
+.detailsBanner {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+.content {
+  display: flex;
+  height: 500px;
+  //   position: relative;
+  overflow: hidden;
+  // margin-top:50px;
+  @include sm3 {
+    width: 100%;
+    height: 1000px;
+  }
+  @include sm2 {
+    width: 100%;
+    height: 1000px;
+  }
+
+  .playbtn {
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    left: 230px;
+    button {
+      @include sm2 {
+        position: relative;
+        right: 60px;
+        //width:120px;
+        padding-right: 0px;
+      }
+
+      @include sm3 {
+        position: relative;
+        right: 100px;
+        //width:120px;
+        padding-right: 0px;
+        height: auto;
+        font-size: small;
+        top: 20px;
+        width: 70px;
+      }
+      @include sm5 {
+        position: relative;
+        right: 140px;
+        top: 50px;
+        width: 120px;
+        padding-right: 20px;
+        // height:auto;
+        // font-size: small;
+
+        // width:70px;
+      }
+      @include sm6 {
+        position: relative;
+        right: 140px;
+        top: 50px;
+        width: 80px;
+        padding-right: 20px;
+        // height:auto;
+        // font-size: small;
+
+        // width:70px;
+      }
+    }
+  }
+  .right {
+    @include sm3 {
+      width: 100%;
+      height: 500px;
+    }
+    @include sm2 {
+      width: 100%;
+      height: 500px;
+    }
+    .title {
+      font-size: 34px;
+      position: relative;
+      left: 100px;
+
+      @include md1 {
+        font-size: 25px;
+        line-height: 28px;
+        margin-top: 20px;
+      }
+      @include sm2 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 20px;
+      }
+      @include sm3 {
+        font-size: 40px;
+        line-height: 28px;
+        //margin-top:600px;
+        position: relative;
+        left: 70px;
+        top: 400px;
+      }
+      @include sm4 {
+        font-size: 15px;
+        line-height: 28px;
+        // position: relative;
+        //  left:70px;
+      }
+    }
+    .subtitle {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 15px;
+      font-style: italic;
+      opacity: 0.5;
+      position: relative;
+      left: 100px;
+      @include md {
+        font-size: 20px;
+        line-height: 28px;
+      }
+      @include md1 {
+        font-size: 15px;
+        line-height: 28px;
+      }
+      @include sm2 {
+        font-size: 10px;
+        line-height: 28px;
+      }
+      @include sm3 {
+        font-size: 10px;
+        line-height: 28px;
+        position: relative;
+        left: 70px;
+      }
+    }
+  }
+
+  .left {
+    .posterImg {
+      @include sm3 {
+        width: 100%;
+        // margin-top:50px;
+        height: 500px;
+      }
+      @include sm2 {
+        width: 100%;
+        // margin-top:50px;
+        height: 500px;
+      }
+    }
+    padding-left: 120px;
+
+    @include sm3 {
+      padding-left: 0px;
+      height: 500px;
+    }
+    @include sm2 {
+      width: 100%;
+      // margin-top:50px;
+      height: 500px;
+      padding-left: 0px;
+    }
+
+    img {
+      position: absolute;
+      height: 140%;
+      width: 80%;
+      object-fit: fill;
+      object-position: center;
+      background: cover;
+    }
+  }
+
+  .row {
+    @include sm2 {
+      //width:45px;
+      position: relative;
+      bottom: 30px;
+    }
+    @include sm3 {
+      //width:45px;
+      position: relative;
+      bottom: 30px;
+    }
+    .circleRating {
+      width: 90px;
+      border-radius: 50%;
+      padding: 2px;
+      //width:60px;
+      position: relative;
+      top: 20px;
+      bottom: 50px;
+      left: 120px;
+      display: inline;
+      @include md1 {
+        width: 60px;
+      }
+
+      @include sm2 {
+        width: 45px;
+        position: relative;
+        bottom: -100px;
+      }
+      @include sm3 {
+        width: 35px;
+        position: relative;
+        left: 95px;
+      }
+    }
+  }
+}

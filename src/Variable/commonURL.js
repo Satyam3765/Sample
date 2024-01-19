@@ -1,0 +1,1 @@
+export const commonURL = "https://image.tmdb.org/t/p/original";

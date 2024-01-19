@@ -1,0 +1,93 @@
+@import "../../mixins.scss";
+
+.reg {
+  margin-top: 50px;
+
+  .imga {
+    .img {
+      margin-left: 80px;
+      height: 687px;
+    }
+    @include xxxl {
+      .img {
+        height: 687px;
+        width: 500px;
+        margin-left: 100px;
+      }
+    }
+    @include xyl {
+      .img {
+        height: 687px;
+        width: 390px;
+        margin-left: 100px;
+      }
+    }
+    @include md1 {
+      .img {
+        width: 400px;
+
+        height: 687px;
+      }
+    }
+    @include sm2 {
+      .img {
+        width: 480px;
+
+        height: 687px;
+      }
+    }
+    @include sm3 {
+      .img {
+        width: 430px;
+
+        height: 687px;
+        margin-left: 40px;
+      }
+    }
+    @include sm7 {
+      .img {
+        width: 350px;
+
+        height: 500px;
+        margin-left: 20px;
+      }
+    }
+    @include sm8 {
+      .img {
+        width: 300px;
+
+        height: 500px;
+        margin-left: 30px;
+      }
+    }
+    @include sm9 {
+      .img {
+        width: 240px;
+
+        height: 500px;
+        margin-left: 30px;
+      }
+    }
+  }
+
+  form {
+    @include xyl {
+      width: 450px;
+      margin-left: 50px;
+    }
+
+    @include md1 {
+      margin-top: 100px;
+      margin-left: 100px;
+    }
+    @include xs {
+      margin-bottom: 50px;
+    }
+  }
+
+  .login {
+    margin-left: 50px;
+    position: relative;
+    top: 12px;
+  }
+}

@@ -1,0 +1,44 @@
+.switchingTabs {
+  height: 34px;
+  background-color: #04152d;
+  border-radius: 20px;
+  padding: 2px;
+  width: 204px;
+  position: relative;
+  // left:1325px;
+  .tabItems {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    position: relative;
+    // left:1325px;
+    .tabItem {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      color: antiquewhite;
+      // background-color:blue;
+
+      font-size: 14px;
+      position: relative;
+      z-index: 1;
+      cursor: pointer;
+      transition: color ease 0.3s;
+      &.active {
+        color: white;
+      }
+    }
+    .movingBg {
+      height: 30px;
+      width: 100px;
+      border-radius: 15px;
+      // background-image:;
+      position: absolute;
+      left: 50px;
+      transition: left cubic-bezier(0.88, -0.35, 0.565, 1.35) 0.4s;
+      background: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+    }
+  }
+}

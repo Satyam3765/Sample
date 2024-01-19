@@ -1,0 +1,75 @@
+@import "../../../mixins.scss";
+
+.card-container {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+  /* flex-wrap: wrap; */
+}
+
+.example-card {
+  width: 400px;
+  height: 300px;
+
+  margin: 20px;
+  margin-top: 10px;
+
+  img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: fill;
+    background-size: contain;
+    position: relative;
+    z-index: -1;
+  }
+  .circle {
+    position: relative;
+    z-index: 2;
+    bottom: 450px;
+  }
+  .textBlock {
+    .title {
+      position: relative;
+      bottom: 50px;
+      &:hover {
+        color: orangered;
+      }
+    }
+  }
+}
+
+.rowing {
+  width: 100%;
+  object-fit: contain;
+  box-sizing: content-box;
+  transition: transform 450ms;
+}
+
+.rowing:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+h1 {
+  color: #69f0ae;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.carouselLeftNav arrow {
+  position: relative;
+  top: 300px;
+}
+.carousel {
+  .arrow1 {
+    position: relative;
+    top: 150px;
+    right: 18px;
+  }
+  .arrow2 {
+    position: relative;
+    top: 150px;
+    left: 1295px;
+  }
+}

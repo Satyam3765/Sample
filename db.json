@@ -1,0 +1,96 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "Satyam",
+      "email": "sharmasatyam224@gmail.com",
+      "phoneNo": "9717719793",
+      "createPassword": "Satyam56"
+    },
+    {
+      "id": "2",
+      "username": "Johnny",
+      "email": "Johnny224@gmail.com",
+      "phoneNo": "9717719793",
+      "createPassword": "Johnny56"
+    },
+    {
+      "id": "1",
+      "username": "tom",
+      "email": "tom224@gmail.com",
+      "phoneNo": "8976433",
+      "createPassword": "tom@@234"
+    },
+    {
+      "id": "2",
+      "username": "sam",
+      "email": "sam224@gmail.com",
+      "phoneNo": "89764336",
+      "createPassword": "sam@234"
+    },
+    {
+      "id": "1",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": "2",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": "1",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": "2",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": "3",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": "1",
+      "username": "",
+      "email": "",
+      "phoneNo": "",
+      "createPassword": ""
+    },
+    {
+      "id": 1,
+      "username": "sammy",
+      "email": "sammy@gmail.com",
+      "phoneNo": "788987544",
+      "createPassword": "sammy123"
+    },
+    {
+      "id": 1,
+      "username": "saty",
+      "email": "saty@gmail.com",
+      "phoneNo": "78999",
+      "createPassword": "saty67"
+    },
+    {
+      "id": 1,
+      "username": "Danny",
+      "email": "danny@gmail.com",
+      "phoneNo": "78999",
+      "createPassword": "danny123"
+    }
+  ],
+  "age": "23"
+}
